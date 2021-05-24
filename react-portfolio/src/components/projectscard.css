@@ -63,3 +63,15 @@
   text-shadow: 2px 2px #000000;
 }
 
+.item-image {
+  width: 100% !important;
+  height: 600px;
+  
+}
+
+@media all and (max-width: 768px) {
+  .item-image {
+    width: 100% !important;
+    height: 300px;
+  }
+}
