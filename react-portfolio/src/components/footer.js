@@ -1,5 +1,4 @@
 import React, { Component, useState } from "react";
-import { Carousel, Card, Button, Modal } from "react-bootstrap";
 
 import "./footer.css";
 

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Navbar,Nav} from "react-bootstrap";
-import { scroller, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 import "./mainnavbar.css";
 

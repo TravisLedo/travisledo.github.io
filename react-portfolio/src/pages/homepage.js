@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./homepage.css";
-import { Image, Jumbotron, Button, Container, Row, Col } from "react-bootstrap";
-import { scroller, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 class HomePage extends Component {
   render() {

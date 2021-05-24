@@ -1,6 +1,6 @@
 import { React, Component } from "react";
 import "./contactpage.css";
-import { scroller, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 class ContactPage extends Component {

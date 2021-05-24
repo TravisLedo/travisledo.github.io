@@ -1,5 +1,5 @@
-import React, { Component, useState } from "react";
-import { Carousel, Card, Button, Modal } from "react-bootstrap";
+import React, { useState } from "react";
+import { Carousel, Card, Modal } from "react-bootstrap";
 
 import "./projectcard.css";
 

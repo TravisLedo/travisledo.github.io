@@ -1,12 +1,4 @@
 import React, { Component } from "react";
-import {
-  CardColumns,
-  CardDeck,
-  Container,
-  Row,
-  Col,
-  Image,
-} from "react-bootstrap";
 
 import "./aboutpage.css";
 

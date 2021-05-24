@@ -1,4 +1,4 @@
-import React, { Component, ReactPhotoGrid, useState } from "react";
+import React, { Component } from "react";
 import ProjectCard from "../components/projectcard";
 import ProjectsDB from "./../projectsdb.json";
 import "./projectspage.css";
