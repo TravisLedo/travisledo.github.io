@@ -1,0 +1,26 @@
+#contact {
+  background-color: #f7f5f2;
+  min-height: 100vh;
+}
+
+.contact-row {
+  background-color: #ffffff;
+  min-height: 75vh;
+}
+
+.contact-links-area {
+  background-color: #ffffff;
+}
+.contact-form-area textarea {
+  resize: none;
+  min-width: 500px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.social-button {
+  width: 200px;
+}

@@ -1,0 +1,43 @@
+body {
+  z-index: 999 !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease-in;
+  padding: 0px;
+  margin: 0px;
+}
+
+.scroll {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-text {
+  font-size: 30px !important;
+  transition: all 0.5s ease-in;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  color: rgb(190, 190, 190) !important;
+  cursor: pointer !important;
+
+}
+
+.scroll .nav-text {
+  font-size: 25px !important;
+}
+
+.nav-text a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-text:focus {
+  color: rgb(190, 190, 190) !important;
+}

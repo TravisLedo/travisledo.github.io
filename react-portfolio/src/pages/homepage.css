@@ -1,0 +1,11 @@
+#home {
+  height: 100vh;
+}
+
+.hero-container {
+  height: 100%;
+}
+
+.hero-title {
+  font-family: Indie Flower, serif !important;
+}
