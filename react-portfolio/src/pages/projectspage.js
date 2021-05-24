@@ -25,7 +25,7 @@ class ProjectsPage extends Component {
 
         <div className="d-flex align-items-center justify-content-center">
           <h1 className="text-center section-title">
-            -Projects-
+            Projects
           </h1>
         </div>
         <div className="  d-flex justify-content-center">

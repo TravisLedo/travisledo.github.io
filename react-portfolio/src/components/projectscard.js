@@ -33,7 +33,7 @@ const ProjectsCard = (props) => {
     <button
       key={index}
       type="button"
-      className="link-button btn btn-secondary btn-lg"
+      className="link-button btn btn-lg btn-outline-info mx-2"
       onClick={() => window.open(l.url)}
     >
       <div className="link-text">{l.name}</div>
@@ -76,20 +76,34 @@ const ProjectsCard = (props) => {
 
       <Modal show={show} onHide={handleClose} centered size="xl" scrollable>
         <Modal.Header closeButton>
-          <Modal.Title>{props.name}</Modal.Title>
+          <Modal.Title className="row d-flex align-items-center justify-content-center">              
+              <div className="row ">
+                <div className="col ">
+                  <div className="row d-flex align-items-center justify-content-center">
+                    <h3 class="card-title">{props.name}</h3>
+                  </div>
+                  <div className="row d-flex align-items-center justify-content-center">
+                    {tags}
+                  </div>
+                </div>
+              </div>
+
+          </Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
+
           <div className="mb-5">{description}</div>
-          <div className="row d-flex align-items-center justify-content-center">
-            {tags}
-          </div>
+
+          <div className="row d-flex align-items-center justify-content-center mb-3">
+            {links}
+          </div>          
           <div className="mt-5">{videos}</div>
 
           <Carousel interval={null}>{images}</Carousel>
         </Modal.Body>
 
-        <Modal.Footer>{links}</Modal.Footer>
+        {/* <Modal.Footer>{links}</Modal.Footer> */}
       </Modal>
 
 

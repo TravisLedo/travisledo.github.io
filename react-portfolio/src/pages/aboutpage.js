@@ -7,7 +7,7 @@ class AboutPage extends Component {
     return (
       <div id="about">
         <div className="d-flex align-items-center justify-content-center">
-          <h1 className="text-center section-title">-About-</h1>
+          <h1 className="text-center section-title">About</h1>
         </div>
 
         <div className="hand-written pt-5 pb-5 container d-flex align-items-center about-container justify-content-center border">
@@ -20,7 +20,7 @@ class AboutPage extends Component {
               />
             </div>
             <div className="col px-5">
-              <div className="row px-5 d-flex align-items-center justify-content-center about-me">
+              <div className="row px-5 d-flex align-items-center justify-content-center">
                 <h3 className="text-center mb-5">Travis Ledo</h3>
                 <p className="text-left">
                   Hello! My name is Travis and I am an entry level software

@@ -1,5 +1,4 @@
 .section-title{
-  font-family: Architects Daughter, serif !important;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 15vh;
@@ -7,14 +6,19 @@
 
 body{
 overflow-x: hidden;
-font-family: Architects Daughter, serif !important;
+font-family: 'Ubuntu', serif !important;
 
 }
 
-button{
-  font-family: Ubuntu, serif !important;
+.boxed {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: xx-small;
+  font-family: 'Press Start 2P', serif !important;
+  margin: 3px;
 }
-
 
 /*
 .App {

@@ -9,7 +9,7 @@ class HomePage extends Component {
         <div className="hero-container d-flex align-items-center justify-content-center mx-0 px-0">
           <div className="jumbotron bg-transparent">
             <div className="d-flex align-items-center justify-content-center mx-0 px-0">
-              <h1 className="hero-title text-light text-center mx-0 px-0">
+              <h1 className="text-light text-center mx-0 px-0">
                 “It's not a faith in technology. It's faith in people.”
               </h1>
             </div>

@@ -7,7 +7,7 @@ class ContactPage extends Component {
   render() {
     return (
       <div id="contact">
-        <h1 className="text-center section-title">-Contact-</h1>
+        <h1 className="text-center section-title">Contact</h1>
 
         <div className="d-flex align-items-center justify-content-center container">
           <div className="row container contact-row border px-0 ">

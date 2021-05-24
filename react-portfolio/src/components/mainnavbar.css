@@ -34,7 +34,8 @@ body {
 
 
 .nav-text {
-  
+  font-family: 'Ubuntu', serif !important;
+
 }
 .nav-text:after {
   content: "";
