@@ -26,7 +26,7 @@ class ContactPage extends Component {
               <div className="row">
                 <div className="col">
                   <img
-                    id="profile-image"
+                    class="profile-image"
                     src="/assets/media/traviscartoon.png"
                   />
                 </div>

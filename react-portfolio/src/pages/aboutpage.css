@@ -13,8 +13,9 @@ hr {
 }
 
 
-#profile-image {
+.profile-image {
   height: 500px;
+  width: auto;
 }
 
 #about p {

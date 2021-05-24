@@ -5,7 +5,14 @@ import { Link } from "react-scroll";
 class HomePage extends Component {
   render() {
     return (
-      <div id="home" className="">
+      <div id="home" className="" 
+      style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/media/splash.png'}`, 
+    backgroundSize: 'cover',
+    backgroundAttachment: 'fixed',
+    backgroundRepeat: 'no-repeat'}}
+      
+      
+      >
         <div className="hero-container d-flex align-items-center justify-content-center mx-0 px-0">
           <div className="jumbotron bg-transparent">
             <div className="d-flex align-items-center justify-content-center mx-0 px-0">

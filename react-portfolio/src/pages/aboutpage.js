@@ -14,8 +14,7 @@ class AboutPage extends Component {
           <div className="row">
             <div className="col d-flex align-items-center justify-content-center">
               <img
-                id="profile-image"
-                className="align-middle align-items-center pt-4 pb-4"
+                className="profile-image align-middle align-items-center pt-4 pb-4"
                 src="./assets/media/travis.png"
               />
             </div>

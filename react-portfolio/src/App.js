@@ -11,10 +11,7 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="app" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/media/splash.png'}`, 
-    backgroundSize: 'cover',
-    backgroundAttachment: 'fixed',
-    backgroundRepeat: 'no-repeat'}}>
+    <div className="app" >
     <MainNavBar/>
     <HomePage/>
     <AboutPage/>
