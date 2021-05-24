@@ -4,6 +4,10 @@
   padding-top: 15vh;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body{
 overflow-x: hidden;
 font-family: 'Ubuntu', serif !important;
