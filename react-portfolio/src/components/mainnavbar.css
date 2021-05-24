@@ -18,20 +18,34 @@ body {
   margin-left: 10px !important;
   color: rgb(190, 190, 190) !important;
   cursor: pointer !important;
-
+  position: relative;
+  display: inline-block;
 }
 
 .scroll .nav-text {
   font-size: 25px !important;
 }
 
-.nav-text a:hover {
-  color: rgb(255, 255, 255) !important;
-}
+
 .active {
   color: rgb(255, 255, 255) !important;
 }
 
-.nav-text:focus {
-  color: rgb(190, 190, 190) !important;
+
+
+.nav-text {
+  
+}
+.nav-text:after {
+  content: "";
+  position: absolute;
+  left:0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width .5s ease-in-out;
+}
+.nav-text:hover:after {
+  width: 100%;
 }

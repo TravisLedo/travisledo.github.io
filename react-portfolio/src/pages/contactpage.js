@@ -7,7 +7,7 @@ class ContactPage extends Component {
   render() {
     return (
       <div id="contact">
-        <h1 className="text-center pt-5 mb-5 px-0 section-title">-Contact-</h1>
+        <h1 className="text-center section-title">-Contact-</h1>
 
         <div className="d-flex align-items-center justify-content-center container">
           <div className="row container contact-row border px-0 ">
@@ -47,7 +47,7 @@ class ContactPage extends Component {
                           className="social-icon"
                           src="/assets/media/icons/email.png"
                         />
-                        Email
+                        <div className="social-text">Email</div>
                       </button>
                     </Link>
 
@@ -68,7 +68,7 @@ class ContactPage extends Component {
                           className="social-icon"
                           src="/assets/media/icons/facebook.png"
                         />
-                        Facebook
+                        <div className="social-text">Facebook</div>
                       </button>
                     </Link>
 
@@ -87,7 +87,7 @@ class ContactPage extends Component {
                           className="social-icon"
                           src="/assets/media/icons/linkedin.png"
                         />
-                        LinkedIn
+                        <div className="social-text">LinkedIn</div>
                       </button>
                     </Link>
 
@@ -106,7 +106,7 @@ class ContactPage extends Component {
                           className="social-icon"
                           src="/assets/media/icons/github.png"
                         />
-                        Github
+                        <div className="social-text">Github</div>
                       </button>
                     </Link>
 
@@ -127,7 +127,7 @@ class ContactPage extends Component {
                           className="social-icon"
                           src="/assets/media/icons/youtube.png"
                         />
-                        Youtube
+                        <div className="social-text">Youtube</div>
                       </button>
                     </Link>
                   </div>

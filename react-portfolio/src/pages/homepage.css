@@ -9,3 +9,21 @@
 .hero-title {
   font-family: Indie Flower, serif !important;
 }
+
+.quick-link-button .quick-link-text {
+  position: relative;
+  display: inline-block;
+}
+.quick-link-button .quick-link-text:after {
+  content: "";
+  position: absolute;
+  left:0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: width .5s ease-in-out;
+}
+.quick-link-button:hover .quick-link-text:after {
+  width: 100%;
+}

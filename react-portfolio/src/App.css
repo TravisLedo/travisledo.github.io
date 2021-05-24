@@ -2,15 +2,18 @@
   font-family: Architects Daughter, serif !important;
   text-transform: uppercase;
   font-weight: bold;
-
+  padding-top: 15vh;
 }
 
 body{
-font-family: Ubuntu, serif !important;
 overflow-x: hidden;
+font-family: Architects Daughter, serif !important;
 
 }
 
+button{
+  font-family: Ubuntu, serif !important;
+}
 
 
 /*

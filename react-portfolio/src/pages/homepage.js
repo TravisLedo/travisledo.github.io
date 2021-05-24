@@ -29,9 +29,9 @@ class HomePage extends Component {
                   >
                     <button
                       type="button"
-                      className="btn btn-outline-light btn-lg"
+                      className="btn btn-outline-light btn-lg quick-link-button"
                     >
-                      Resume
+                      <div className="quick-link-text">Resume</div>
                     </button>
                   </Link>
                   <Link
@@ -43,9 +43,9 @@ class HomePage extends Component {
                   >
                     <button
                       type="button"
-                      className="btn btn-outline-light btn-lg"
+                      className="btn btn-outline-light btn-lg quick-link-button"
                     >
-                      Explore
+                      <div className="quick-link-text">Explore</div>
                     </button>
                   </Link>
                   <Link
@@ -57,9 +57,9 @@ class HomePage extends Component {
                   >
                     <button
                       type="button"
-                      className="btn btn-outline-light btn-lg"
+                      className="btn btn-outline-light btn-lg quick-link-button"
                     >
-                      Connect
+                      <div className="quick-link-text">Connect</div>
                     </button>
                   </Link>
                 </div>

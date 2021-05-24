@@ -7,7 +7,7 @@ class AboutPage extends Component {
     return (
       <div id="about">
         <div className="d-flex align-items-center justify-content-center">
-          <h1 className="text-center mt-5 mb-5 px-0 section-title">-About-</h1>
+          <h1 className="text-center section-title">-About-</h1>
         </div>
 
         <div className="hand-written pt-5 pb-5 container d-flex align-items-center about-container justify-content-center border">
@@ -16,7 +16,7 @@ class AboutPage extends Component {
               <img
                 id="profile-image"
                 className="align-middle align-items-center pt-4 pb-4"
-                src="./assets/media/travisfade.png"
+                src="./assets/media/travis.png"
               />
             </div>
             <div className="col px-5">

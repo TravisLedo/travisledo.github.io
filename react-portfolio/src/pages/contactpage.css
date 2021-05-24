@@ -5,7 +5,6 @@
 
 .contact-row {
   background-color: #ffffff;
-  min-height: 75vh;
 }
 
 .contact-links-area {
@@ -24,4 +23,31 @@
 
 .social-button {
   width: 200px;
+}
+
+.social-text{
+  text-decoration-color: #000000 !important;
+
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.social-button .social-text {
+  position: relative;
+  display: inline-block;
+}
+.social-button .social-text:after {
+  content: "";
+  position: absolute;
+  left:0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width .5s ease-in-out;
+}
+.social-button:hover .social-text:after {
+  width: 100%;
 }

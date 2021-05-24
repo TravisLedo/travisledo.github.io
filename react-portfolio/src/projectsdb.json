@@ -24,7 +24,7 @@
 			},
 			{
 				"id": 2,
-				"name": "Lidar Scanning and Rendering",
+				"name": "Lidar Scanning & Rendering",
 				"description": [
 					"This project uses Lidar technology like those found in self driving cars to measure distances between itself and its surroundings. The data is sent to a Java program I developed and gets converted from spherical to cartesian points. The points get rendered together to make a 3D model of the environment.", 
 					"The initial idea was to create some sort of 3D program in Java but I also wanted it to involve the real world. The first thing that came to mind were 3D printers. I decided to do the opposite by turning reality into a computer model."

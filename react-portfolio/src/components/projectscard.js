@@ -29,14 +29,17 @@ const ProjectsCard = (props) => {
   ));
 
   const links = props.links.map((l, index) => (
+      <div>
     <button
       key={index}
       type="button"
-      className="btn btn-secondary btn-lg"
+      className="link-button btn btn-secondary btn-lg"
       onClick={() => window.open(l.url)}
     >
-      {l.name}
+      <div className="link-text">{l.name}</div>
     </button>
+      </div>
+
   ));
 
   const tags = props.tags.map((t, index) => (
@@ -49,15 +52,15 @@ const ProjectsCard = (props) => {
       return <div className="px-0 mx-0 row ">
       <div class="card mb-3 project-card" onClick={handleShow}>
         <div class="row no-gutters">
-        <div class="col-md-4">
+        <div class="col-md-4 thumbnail-frame">
             <img src={props.thumbnail} class="card-img project-thumbnail" alt="..." />
           </div>
           <div class="col-md-8 ">
             <div class="card-body h-100 d-flex align-items-center justify-content-center">
-              <div className="row   ">
+              <div className="row ">
                 <div className="col ">
                   <div className="row d-flex align-items-center justify-content-center">
-                    <h5 class="card-title">{props.name}</h5>
+                    <h3 class="card-title">{props.name}</h3>
                   </div>
                   <div className="row d-flex align-items-center justify-content-center">
                     {tags}
