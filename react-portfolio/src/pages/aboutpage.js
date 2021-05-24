@@ -16,7 +16,7 @@ class AboutPage extends Component {
               <img
                 id="profile-image"
                 className="align-middle align-items-center pt-4 pb-4"
-                src="./assets/media/travis.png"
+                src="./assets/media/travisfade.png"
               />
             </div>
             <div className="col px-5">

@@ -1,0 +1,65 @@
+.project-card {
+  width: 100%;
+  height: auto;
+  background: white;
+
+}
+
+
+.project-thumbnail {
+  filter: brightness(80%);
+  transform: scale(1.0) !important;
+  transition: transform 1s; /* Animation */
+}
+
+.project-card:hover .project-thumbnail{
+  filter: brightness(100%);
+  transition: transform 1s; /* Animation */
+}
+
+
+.project-card:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.modal-content {
+  overflow-y: scroll;
+}
+
+.modal-content p {
+  text-indent: 50px;
+  font-size: larger;
+}
+
+.close-button {
+  font-size: xx-large;
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+.carousel-caption {
+  text-shadow: 2px 2px #000000;
+}
+

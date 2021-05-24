@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import ProjectCard from "../components/projectcard";
+import ProjectsCard from "../components/projectscard";
 import ProjectsDB from "./../projectsdb.json";
 import "./projectspage.css";
 
 class ProjectsPage extends Component {
   render() {
     const projects = ProjectsDB.map((d, index) => (
-      <ProjectCard
+      <ProjectsCard
         key={d.id}
+        id={d.id}
         name={d.name}
         thumbnail={d.thumbnail}
         description={d.description}
@@ -16,18 +17,19 @@ class ProjectsPage extends Component {
         links={d.links}
         tags={d.tags}
         index={index}
-      ></ProjectCard>
+      ></ProjectsCard>
     ));
 
     return (
       <div id="projects">
+
         <div className="d-flex align-items-center justify-content-center px-0 mx-0">
           <h1 className="text-center mt-5 mb-5 px-0 section-title">
             -Projects-
           </h1>
         </div>
         <div className="  d-flex justify-content-center">
-          <div className="CardGroup row container d-flex justify-content-center ">
+          <div className="row container">
             {projects}
 
            {/*  <img
