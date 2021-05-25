@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, Card, Modal } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import "./projectscard.css";
 
 const ProjectsCard = (props) => {
@@ -20,12 +20,17 @@ const ProjectsCard = (props) => {
   ));
 
   const images = props.images.map((s, index) => (
-    <Carousel.Item key={index}>
-      <img className=" item-image d-block" src={s.src} alt={s.text} />
-      <Carousel.Caption>
-        <h3>{s.text}</h3>
-      </Carousel.Caption>
-    </Carousel.Item>
+      <div>
+
+    <div class="card bg-dark text-white mb-2">
+    <img className="card-img item-image" src={s.src} alt={s.text} />
+  <div class="card-img-overlay mt-3">
+    <h3 class="card-title text-center image-text">{s.text}</h3>
+  </div>
+</div>
+
+
+      </div>
   ));
 
   const links = props.links.map((l, index) => (
@@ -99,11 +104,12 @@ const ProjectsCard = (props) => {
             {links}
           </div>          
           <div className="mt-5">{videos}</div>
-
-          <Carousel interval={null}>{images}</Carousel>
+          <div className="row d-flex align-items-center justify-content-center mb-3">
+            {images}
+          </div>   
+          
         </Modal.Body>
 
-        {/* <Modal.Footer>{links}</Modal.Footer> */}
       </Modal>
 
 
