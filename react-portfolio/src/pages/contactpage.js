@@ -31,8 +31,9 @@ class ContactPage extends Component {
               <div className="row">
                 <div className="col">
                   <img
-                    class="profile-image"
+                    className="profile-image"
                     src="/assets/media/traviscartoon.png"
+                    alt="Travis Cartoon"
                   />
                 </div>
                 <div className="container col d-flex align-items-center">
@@ -51,6 +52,7 @@ class ContactPage extends Component {
                         <img
                           className="social-icon"
                           src="/assets/media/icons/email.png"
+                          alt="email"
                         />
                         <div className="social-text">Email</div>
                       </button>
@@ -72,6 +74,7 @@ class ContactPage extends Component {
                         <img
                           className="social-icon"
                           src="/assets/media/icons/facebook.png"
+                          alt="facebook"
                         />
                         <div className="social-text">Facebook</div>
                       </button>
@@ -91,6 +94,7 @@ class ContactPage extends Component {
                         <img
                           className="social-icon"
                           src="/assets/media/icons/linkedin.png"
+                          alt="linkedin"
                         />
                         <div className="social-text">LinkedIn</div>
                       </button>
@@ -110,6 +114,7 @@ class ContactPage extends Component {
                         <img
                           className="social-icon"
                           src="/assets/media/icons/github.png"
+                          alt="github"
                         />
                         <div className="social-text">Github</div>
                       </button>
@@ -131,6 +136,7 @@ class ContactPage extends Component {
                         <img
                           className="social-icon"
                           src="/assets/media/icons/youtube.png"
+                          alt="youtube"
                         />
                         <div className="social-text">Youtube</div>
                       </button>

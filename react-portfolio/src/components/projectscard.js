@@ -14,18 +14,17 @@ const ProjectsCard = (props) => {
   ));
 
   const videos = props.videos.map((v, index) => (
-    <div key={index} className="iframe-container mb-5">
-      <iframe src={"//www.youtube.com/embed/" + v} allowfullscreen></iframe>
+    <div key={index}  className="iframe-container mb-5">
+      <iframe title={v} src={"//www.youtube.com/embed/" + v} allowFullScreen></iframe>
     </div>
   ));
 
   const images = props.images.map((s, index) => (
-      <div>
-
-    <div class="card bg-dark text-white mb-2">
+      <div key={index}>
+    <div className="card bg-dark text-white mb-2">
     <img className="card-img item-image" src={s.src} alt={s.text} />
-  <div class="card-img-overlay mt-1">
-    <h3 class="card-title text-center image-text">{s.text}</h3>
+  <div className="card-img-overlay mt-1">
+    <h3 className="card-title text-center image-text">{s.text}</h3>
   </div>
 </div>
 
@@ -34,9 +33,8 @@ const ProjectsCard = (props) => {
   ));
 
   const links = props.links.map((l, index) => (
-      <div>
+      <div key={index}      >
     <button
-      key={index}
       type="button"
       className="link-button btn btn-lg btn-outline-info mx-2"
       onClick={() => window.open(l.url)}
@@ -56,16 +54,16 @@ const ProjectsCard = (props) => {
 
       return <div className="px-0 mx-0 row ">
       <div onClick={handleShow} className="card mb-4 project-card rounded-0">
-        <div class="row no-gutters" >
-        <div class="col-md-4 thumbnail-frame">
-            <img src={props.thumbnail} class="card-img project-thumbnail" alt="..." />
+        <div className="row no-gutters" >
+        <div className="col-md-4 thumbnail-frame">
+            <img src={props.thumbnail} className="card-img project-thumbnail" alt="..." />
           </div>
-          <div class="col-md-8 ">
-            <div class="card-body h-100 d-flex align-items-center justify-content-center">
+          <div className="col-md-8 ">
+            <div className="card-body h-100 d-flex align-items-center justify-content-center">
               <div className="row ">
                 <div className="col ">
                   <div className="row d-flex align-items-center justify-content-center">
-                    <h3 class="card-title">{props.name}</h3>
+                    <h3 className="card-title">{props.name}</h3>
                   </div>
                   <div className="row d-flex align-items-center justify-content-center">
                     {tags}
@@ -85,7 +83,7 @@ const ProjectsCard = (props) => {
               <div className="row ">
                 <div className="col ">
                   <div className="row d-flex align-items-center justify-content-center">
-                    <h3 class="card-title">{props.name}</h3>
+                    <h3 className="card-title">{props.name}</h3>
                   </div>
                   <div className="row d-flex align-items-center justify-content-center">
                     {tags}

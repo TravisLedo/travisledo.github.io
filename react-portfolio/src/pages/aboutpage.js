@@ -17,11 +17,12 @@ class AboutPage extends Component {
               <img
                 className="profile-image align-middle align-items-center "
                 src="./assets/media/travis.png"
+                alt="Travis"
               />
             </div>
             <div className="col">
               <div className="row px-5 d-flex align-items-center justify-content-center">
-                <h3 className="text-center mb-5">Travis Ledo</h3>
+                <h3 className="text-center mb-5 pt-5">Travis Ledo</h3>
                 <p className="text-left">
                   Hello! My name is Travis and I am an entry level software
                   engineer. I chose this career path because I believe that
