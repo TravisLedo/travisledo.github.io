@@ -7,9 +7,7 @@ class HomePage extends Component {
     return (
       <div id="home" className="" 
       style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/media/splash.png'}`, 
-    backgroundSize: 'cover 100vh',
-    backgroundAttachment: 'fixed',
-    backgroundRepeat: 'no-repeat'}}
+    backgroundSize: 'cover'}}
       
       
       >
