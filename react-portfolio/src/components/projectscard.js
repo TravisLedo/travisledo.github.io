@@ -27,7 +27,7 @@ const ProjectsCard = (props) => {
       <div className="card bg-dark text-white mb-2">
         <img className="card-img item-image" src={s.src} alt={s.text} />
         <div className="card-img-overlay mt-1">
-          <h3 className="card-title text-center image-text">{s.text}</h3>
+          <h4 className="text-center image-text">{s.text}</h4>
         </div>
       </div>
     </div>

@@ -116,7 +116,7 @@
 				"images": [
 					{"src": "/assets/media/MediaPlayer/1.png", "text": "Empty Playlist"}, 
 					{"src": "/assets/media/MediaPlayer/2.png", "text": "Adding media files"}, 
-					{"src": "/assets/media/MediaPlayer/3.png", "text": "Playig a Video"}
+					{"src": "/assets/media/MediaPlayer/3.png", "text": "Playing a Video"}
 				],
 				"links": [
 					{"name": "Github", "url": "https://github.com/TravisLedo/ImageSearchAndFilter"}
