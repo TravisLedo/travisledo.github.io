@@ -20,10 +20,13 @@
 
 }
 
+.project-card:hover .thumbnail-frame{
+
+  
+}
 .project-card:hover .project-thumbnail{
   transform: scale(1.8) !important;
 }
-
 
 .project-card:hover {
   cursor: pointer;

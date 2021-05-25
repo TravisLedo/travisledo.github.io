@@ -32,7 +32,6 @@ class AboutPage extends Component {
                   regarding an open position, please feel free to contact me.
                 </p>
               </div>
-
               <div className="row d-flex align-items-center justify-content-center mt-5 px-5">
                 <div className="boxed">Android Studio</div>
                 <div className="boxed">Unity</div>

@@ -24,7 +24,7 @@ const ProjectsCard = (props) => {
 
     <div class="card bg-dark text-white mb-2">
     <img className="card-img item-image" src={s.src} alt={s.text} />
-  <div class="card-img-overlay mt-3">
+  <div class="card-img-overlay mt-1">
     <h3 class="card-title text-center image-text">{s.text}</h3>
   </div>
 </div>
@@ -96,7 +96,7 @@ const ProjectsCard = (props) => {
           </Modal.Title>
         </Modal.Header>
 
-        <Modal.Body>
+        <Modal.Body className="mx-0 px-0">
 
           <div className="mb-5">{description}</div>
 
