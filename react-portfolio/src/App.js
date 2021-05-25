@@ -11,7 +11,14 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="app" >
+    <div className="app" 
+    style={{
+      backgroundImage: `url(${
+        process.env.PUBLIC_URL + "/assets/media/paper.jpg"
+      }`,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    }}>
     <MainNavBar/>
     <HomePage/>
     <AboutPage/>

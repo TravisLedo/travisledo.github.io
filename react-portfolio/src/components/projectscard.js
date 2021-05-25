@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Carousel, Card, Modal } from "react-bootstrap";
-
 import "./projectscard.css";
 
 const ProjectsCard = (props) => {
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -48,10 +48,10 @@ const ProjectsCard = (props) => {
     </div>
   ));
 
- 
+
       return <div className="px-0 mx-0 row ">
-      <div class="card mb-3 project-card" onClick={handleShow}>
-        <div class="row no-gutters">
+      <div onClick={handleShow} className="card mb-4 project-card rounded-0">
+        <div class="row no-gutters" >
         <div class="col-md-4 thumbnail-frame">
             <img src={props.thumbnail} class="card-img project-thumbnail" alt="..." />
           </div>

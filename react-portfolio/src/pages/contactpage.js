@@ -7,12 +7,17 @@ class ContactPage extends Component {
   render() {
     return (
       <div id="contact">
-        <h1 className="text-center section-title">Contact</h1>
 
-        <div className="d-flex align-items-center justify-content-center container">
-          <div className="row container contact-row border px-0 ">
+
+<div className="d-flex align-items-center justify-content-center ">
+          <h1 className="text-center section-title">
+            Contact
+          </h1>
+        </div>
+        <div className="d-flex align-items-center justify-content-center container ">
+          <div className="row container contact-container border px-0 ">
             <div
-              className="col container"
+              className="col container left-image"
               style={{
                 backgroundImage: `url(${
                   process.env.PUBLIC_URL + "/assets/media/keyboard.jpg"

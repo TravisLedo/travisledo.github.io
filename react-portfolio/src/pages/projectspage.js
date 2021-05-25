@@ -23,12 +23,12 @@ class ProjectsPage extends Component {
     return (
       <div id="projects">
 
-        <div className="d-flex align-items-center justify-content-center">
+        <div className="d-flex align-items-center justify-content-center ">
           <h1 className="text-center section-title">
             Projects
           </h1>
         </div>
-        <div className="  d-flex justify-content-center">
+        <div className="  d-flex justify-content-center ">
           <div className="row container">
             {projects}
           </div>

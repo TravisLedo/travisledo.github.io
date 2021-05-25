@@ -10,7 +10,8 @@ class AboutPage extends Component {
           <h1 className="text-center section-title">About</h1>
         </div>
 
-        <div className="hand-written pt-5 pb-5 container d-flex align-items-center about-container justify-content-center border">
+        <div className="mb-2 pt-5 pb-5 container d-flex align-items-center about-container justify-content-center border">
+       
           <div className="row">
             <div className="col d-flex align-items-center justify-content-center">
               <img
