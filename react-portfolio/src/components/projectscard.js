@@ -14,13 +14,13 @@ const ProjectsCard = (props) => {
   ));
 
   const videos = props.videos.map((v, index) => (
-    <div key={index}  className="iframe-container mb-5">
+    <div key={index} className="iframe-container mx-0 px-0" >
       <iframe title={v} src={"//www.youtube.com/embed/" + v} allowFullScreen></iframe>
-    </div>
+      </div>
   ));
 
   const images = props.images.map((s, index) => (
-      <div key={index}>
+      <div key={index} className="container mx-0 px-0">
     <div className="card bg-dark text-white mb-2">
     <img className="card-img item-image" src={s.src} alt={s.text} />
   <div className="card-img-overlay mt-1">
@@ -77,7 +77,7 @@ const ProjectsCard = (props) => {
 
 
 
-      <Modal show={show} onHide={handleClose} centered size="xl" scrollable>
+      <Modal show={show} onHide={handleClose} centered size="xl" scrollable animation={false}>
         <Modal.Header closeButton>
           <Modal.Title className="row d-flex align-items-center justify-content-center">              
               <div className="row ">
@@ -101,7 +101,7 @@ const ProjectsCard = (props) => {
           <div className="row d-flex align-items-center justify-content-center mb-3">
             {links}
           </div>          
-          <div className="mt-5">{videos}</div>
+          <div className="mb-2">{videos}</div>
           <div className="row d-flex align-items-center justify-content-center mb-3">
             {images}
           </div>   

@@ -46,10 +46,6 @@
   width: 100%;
 }
 
-.modal-content {
-  overflow-y: scroll;
-}
-
 .modal-content p {
   text-indent: 50px;
   font-size: larger;
