@@ -94,14 +94,14 @@ const ProjectsCard = (props) => {
           </Modal.Title>
         </Modal.Header>
 
-        <Modal.Body className="mx-0 px-0">
+        <Modal.Body>
 
           <div className="mb-5">{description}</div>
 
-          <div className="row d-flex align-items-center justify-content-center mb-3">
+          <div className="row d-flex align-items-center justify-content-center mb-5">
             {links}
           </div>          
-          <div className="mb-2">{videos}</div>
+          <div className="mb-5">{videos}</div>
           <div className="row d-flex align-items-center justify-content-center mb-3">
             {images}
           </div>   
