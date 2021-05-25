@@ -6,10 +6,15 @@ class HomePage extends Component {
   render() {
     return (
       <div id="home" className="" 
-      style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/media/splash.png'}`, 
-    backgroundSize: 'cover'}}
-      
-      
+      style={{
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "/assets/media/splash.png"
+        }`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed"
+
+      }}
       >
         <div className="hero-container d-flex align-items-center justify-content-center mx-0 px-0">
           <div className="jumbotron bg-transparent">
