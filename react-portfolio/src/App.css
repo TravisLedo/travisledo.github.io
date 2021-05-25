@@ -11,6 +11,7 @@ width: 100vh;
 }
 
 
+
 html{
   overflow-x: hidden;
 }
@@ -18,7 +19,6 @@ html{
 body{
 overflow-x: hidden;
 font-family: 'Ubuntu', serif !important;
-background-color: #fff8ee !important;
 
 }
 

@@ -10,16 +10,16 @@ class AboutPage extends Component {
           <h1 className="text-center section-title">About</h1>
         </div>
 
-        <div className="mb-2 pt-5 pb-5 container d-flex align-items-center about-container justify-content-center border">
+        <div className=" container d-flex align-items-center justify-content-center">
        
-          <div className="row">
+          <div className="row about-container pb-5 pt-5">
             <div className="col d-flex align-items-center justify-content-center">
               <img
                 className="profile-image align-middle align-items-center "
                 src="./assets/media/travis.png"
               />
             </div>
-            <div className="col px-5">
+            <div className="col">
               <div className="row px-5 d-flex align-items-center justify-content-center">
                 <h3 className="text-center mb-5">Travis Ledo</h3>
                 <p className="text-left">
@@ -33,7 +33,7 @@ class AboutPage extends Component {
                 </p>
               </div>
 
-              <div className="row d-flex align-items-center justify-content-center mt-5">
+              <div className="row d-flex align-items-center justify-content-center mt-5 px-5">
                 <div className="boxed">Android Studio</div>
                 <div className="boxed">Unity</div>
                 <div className="boxed">Qt</div>

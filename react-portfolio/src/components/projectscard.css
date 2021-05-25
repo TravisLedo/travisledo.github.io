@@ -9,16 +9,16 @@
 
   .thumbnail-frame {
     display: inline-block; 
-    overflow: hidden;    
+    overflow: hidden;  
+    transition: all 1s !important;
+
     }
   
 .project-thumbnail {
   transform: scale(1.5) !important;
-  transition: transform 1s; /* Animation */
+  transition: all 1s;
 
 }
-
-
 
 .project-card:hover .project-thumbnail{
   transform: scale(1.8) !important;
