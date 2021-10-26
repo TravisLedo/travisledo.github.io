@@ -82,7 +82,7 @@
 					{"src": "/assets/media/PokerApp/4.png", "text": "Profile View"}
 				],
 				"links": [
-					{"name": "Google Play Store", "url": "https://play.google.com/store/apps/details?id=com.vetabyte.kingdompoker&hl=en_US"}
+					
 				]
 			},
 			{
@@ -133,7 +133,7 @@
 				"thumbnail": "/assets/media/BrainWave/1.png",
 				"youtube_ids": [],
 				"images": [
-					{"src": "/assets/media/BrainWave/1.png", "text": "Arudino, TGAM1 Chip, & Electrodes"}, 
+					{"src": "/assets/media/BrainWave/1.png", "text": "Arduino, TGAM1 Chip, & Electrodes"}, 
 					{"src": "/assets/media/BrainWave/2.gif", "text": "Java Realtime Wave Graph"}
 				],
 				"links": [
