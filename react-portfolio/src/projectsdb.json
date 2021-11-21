@@ -66,27 +66,6 @@
 			},
 			{
 				"id": 4,
-				"name": "Android Poker App",
-				"description": [
-					"A fully functional Jacks or Better Video Poker game. It also has leaderboard features and players' scores are kept online. Meaning, they can log in on any device and continue their progress.", 
-					"This was developed in Android Studio during a summer break and was the first project I ever worked on outside of classrooms. At the time I never used Android Studio before but really wanted to learn the ins and outs of developing and publishing a mobile app. I barely knew how to code but was determined to finish the app before my summer break was over, and succeeded in doing so.",
-					"The app currently has more than 500 downloads and still active. I learned how to implement Google APIs such as Admob, Firebase Database, and Firebase Authentication."
-				],		
-				"tags": ["Android Studio","Java"],						
-				"thumbnail": "/assets/media/PokerApp/1.png",
-				"youtube_ids": [],
-				"images": [
-					{"src": "/assets/media/PokerApp/1.png", "text": "Gameplay"}, 
-					{"src": "/assets/media/PokerApp/2.png", "text": "Leaderboards Hosted on Firebase"}, 
-					{"src": "/assets/media/PokerApp/3.png", "text": "Game Over & Google Adsense"}, 
-					{"src": "/assets/media/PokerApp/4.png", "text": "Profile View"}
-				],
-				"links": [
-					
-				]
-			},
-			{
-				"id": 5,
 				"name": "Sprite Split & Glue Tool",
 				"description": [
 					"Sprite Tool is an application designed with artists in mind. Game developers, animators, and etc. need a quick way to create sprite sheets or cut existing sheets into individual sprites. This is a free, intuitive, offline solution to assist them with these tasks. Users have the ability to preview the animations before finalizing their images. It is developed in C++ using QT Creator and works for both MacOS and Windows."
@@ -105,7 +84,7 @@
 				]
 			}
 			,{
-				"id": 6,
+				"id": 5,
 				"name": "Media Player",
 				"description": [
 					"This is desktop application that plays audio and video files inside a playlist. Inspired by my favorite media player growing up called Winamp, I decided to make something similar but with a more modern design than what I remembered Winamp used to look like.", 
@@ -123,7 +102,7 @@
 				]
 			},
 			{
-				"id": 7,
+				"id": 6,
 				"name": "Brainwave Reader",
 				"description": [
 					"This project reads brainwave activities from electrodes and graphs them in real time inside of Java. This is possible by using a Neurosky TGAM1 chip that are also found in many commercial brainwave headsets. I wanted to make my own headset which saved me hundreds of dollars. Now with the graph program working, I have the experience to create other softwares for the headset in the future.", 
