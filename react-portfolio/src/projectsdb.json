@@ -100,28 +100,6 @@
 				"links": [
 					{"name": "Github", "url": "https://github.com/TravisLedo/ImageSearchAndFilter"}
 				]
-			},
-			{
-				"id": 6,
-				"name": "Brainwave Reader",
-				"description": [
-					"This project reads brainwave activities from electrodes and graphs them in real time inside of Java. This is possible by using a Neurosky TGAM1 chip that are also found in many commercial brainwave headsets. I wanted to make my own headset which saved me hundreds of dollars. Now with the graph program working, I have the experience to create other softwares for the headset in the future.", 
-					"Since this is only a budget device, it can detect only two types of brain waves. How hard a person is concentrating and also how clear their mind is from a meditative state. With that we can do things such as turnning on and off a light with our minds. Very simple but still fun and amazing."
-				],
-				"tags": ["Java", "Arduino"],				
-				"thumbnail": "/assets/media/BrainWave/1.png",
-				"youtube_ids": [],
-				"images": [
-					{"src": "/assets/media/BrainWave/1.png", "text": "Arduino, TGAM1 Chip, & Electrodes"}, 
-					{"src": "/assets/media/BrainWave/2.gif", "text": "Java Realtime Wave Graph"}
-				],
-				"links": [
-					{"name": "Github", "url": "https://github.com/TravisLedo/BrainWaveProject"}
-				]
 			}
-
-		
-			
-			
 			
 ]

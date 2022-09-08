@@ -29,13 +29,6 @@ class ContactPage extends Component {
 
             <div className="col contact-links-area d-flex align-items-center justify-content-left ">
               <div className="row">
-                <div className="col">
-                  <img
-                    className="profile-image"
-                    src="/assets/media/traviscartoon.png"
-                    alt="Travis Cartoon"
-                  />
-                </div>
                 <div className="container col d-flex align-items-center">
                   <div className="row  ">
                     <Link
