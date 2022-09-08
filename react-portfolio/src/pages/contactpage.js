@@ -28,9 +28,9 @@ class ContactPage extends Component {
             ></div>
 
             <div className="col contact-links-area d-flex align-items-center justify-content-center ">
-              <div className="row justify-content-center">
+              <div className="row">
                 <div className="container col d-flex align-items-center">
-                  <div className="row justify-content-center ">
+                  <div className="row  ml-5 mr-5">
                     <Link
                     to=""
                       className="mb-2"
