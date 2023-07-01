@@ -34,24 +34,13 @@ class AboutPage extends Component {
                 </p>
               </div>
               <div className="row d-flex align-items-center justify-content-center mt-5 px-5">
-                <div className="boxed">Android Studio</div>
-                <div className="boxed">Unity</div>
-                <div className="boxed">Qt</div>
-                <div className="boxed">Arduino</div>
-                <div className="boxed">Git</div>
-                <div className="boxed">Jira</div>
-                <div className="boxed">Angular</div>
-                <div className="boxed">React</div>
-                <div className="boxed">NodeJS</div>
-                <div className="boxed">HTML</div>
-                <div className="boxed">CSS</div>
-                <div className="boxed">JavaScript</div>
-                <div className="boxed">Java</div>
-                <div className="boxed">C#</div>
-                <div className="boxed">C++</div>
-                <div className="boxed">C</div>
-                <div className="boxed">Python</div>
-                <div className="boxed">Raspberry Pi</div>
+                <div className="boxed">Frontend</div>
+                <div className="boxed">Backend</div>
+                <div className="boxed">Desktop Applications</div>
+                <div className="boxed">Mobile</div>
+                <div className="boxed">Game Development</div>
+                <div className="boxed">Robotics</div>
+                <div className="boxed">Databases</div>
               </div>
             </div>
           </div>
