@@ -1,0 +1,120 @@
+.project-card {
+  width: 100%;
+  height: auto;
+  background: white;
+  transition: all .5s;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+
+}
+
+.thumbnail-frame {
+  display: inline-block;
+  overflow: hidden;
+  transition: all 1s !important;
+}
+
+.project-thumbnail {
+  transform: scale(1.5) !important;
+  transition: all 1s;
+}
+
+.project-card:hover .project-thumbnail {
+  transform: scale(1.7) !important;
+
+}
+
+.project-card:hover {
+  cursor: pointer;
+
+}
+
+.project-card .card-title {
+  position: relative;
+  display: inline-block;
+}
+.project-card .card-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease-in-out;
+}
+.project-card:hover .card-title:after {
+  width: 100%;
+}
+
+.modal-content p {
+  text-indent: 25px;
+  font-size: larger;
+}
+
+.modal-title {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.link-text {
+  text-decoration-color: #000000 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.link-button .link-text {
+  position: relative;
+  display: inline-block;
+}
+.link-button .link-text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.5s ease-in-out;
+}
+.link-button:hover .link-text:after {
+  width: 100%;
+}
+
+.close-button {
+  font-size: xx-large;
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.item-image {
+  width: 100% !important;
+  height: auto;
+}
+
+.image-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: fit-content !important;
+  margin: 0;
+  padding-top: 0;
+}
+
+
+.modal-content {
+  overflow-y: scroll;
+}
