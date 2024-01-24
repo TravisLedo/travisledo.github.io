@@ -23,11 +23,11 @@ class AboutPage extends Component {
               <div className="row px-5 d-flex align-items-center justify-content-center">
                 <h3 className="text-center mb-5 pt-5">Travis Ledo</h3>
                 <p className="text-left">
-                  Hello! My name is Travis and I am an entry level software
-                  engineer. I chose this career path because I believe that
+                  Hello! My name is Travis and I am a software
+                  developer. I chose this career path because I believe that
                   technology will continue to make a difference in the world and
                   I wish to be part of that driving force. I hope to use my
-                  development skills to enrich lives everywhere. If you have any
+                  tech skills to enrich lives everywhere. If you have any
                   questions about my projects or want to reach out to me
                   regarding an open position, please feel free to contact me.
                 </p>
