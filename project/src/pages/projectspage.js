@@ -5,7 +5,7 @@ import "./projectspage.css";
 
 class ProjectsPage extends Component {
   render() {
-    const projects = ProjectsDB.map((d, index) => (
+    const projects = ProjectsDB.reverse().map((d, index) => (
       <ProjectsCard
         key={d.id}
         id={d.id}

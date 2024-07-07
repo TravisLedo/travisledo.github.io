@@ -18,10 +18,10 @@ class HomePage extends Component {
           <div className="jumbotron bg-transparent">
             <div className="d-flex align-items-center justify-content-center mx-0 px-0">
               <h1 className="text-light text-center mx-0 px-0">
-                “It's not a faith in technology. It's faith in people.”
+                “The best way to predict the future is to invent it.”
               </h1>
             </div>
-            <h5 className="text-light text-center">-Steve Jobs</h5>
+            <h5 className="text-light text-center">- Alan Kay</h5>
 
             <div className="container d-flex align-items-center justify-content-center">
               <div className="row justify-content-md-center d-flex align-items-center justify-content-center">
@@ -31,7 +31,7 @@ class HomePage extends Component {
                     className="mx-2"
                     onClick={() =>
                       window.open(
-                        "https://drive.google.com/file/d/11xuz03B0Ml9n-mK6ylKkbwwQTAnFphbH/view?usp=sharing"
+                        "https://docs.google.com/document/d/1iAVbUQiB8TeZUMtybkW8igEcWHCyu4CM/edit?usp=sharing&ouid=104397385363255195749&rtpof=true&sd=true"
                       )
                     }
                   >

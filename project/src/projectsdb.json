@@ -1,105 +1,172 @@
-
 [
-			{
-				"id": 1,
-				"name": "AR Virtual Home",
-				"description": [
-					"This project was my entry to Augmented Reality. I know that AR will have many important use cases in the future for society. Being able to understand at least how the it works will help keep me up to date with the latest technologies. I developed this app based off of the IKEA Place app that does something similar. I think that it is a good starting point for this type of project.", 
-					"The user has the ability to browse items, rotate, scale, and place them on the grid area. The app can run on IOS and Android devices thanks to Unity's AR Foundation assets."
-				],
-				"tags": ["Unity","C#"],				
-				"thumbnail": "/assets/media/ARHome/3.png",
-				"youtube_ids": ["ne-2WAjQ0tk"],
-				"images": [
-					{"src": "/assets/media/ARHome/1.png", "text": "Before Using AR"}, 
-					{"src": "/assets/media/ARHome/2.png", "text": "Rotating, Scaling, & Placing Objects"},
-					{"src": "/assets/media/ARHome/3.png", "text": "Added Multiple Objects"},
-					{"src": "/assets/media/ARHome/4.png", "text": "Walking Around"},
-					{"src": "/assets/media/ARHome/5.png", "text": "Finished Room View"}
-				],
-				"links": [
-					{"name": "Github", "url": "https://github.com/TravisLedo/ARWeHomeYet"},
-					{"name": "Youtube", "url": "https://youtu.be/ne-2WAjQ0tk"}
-				]
-			},
-			{
-				"id": 2,
-				"name": "Lidar Scanning & Rendering",
-				"description": [
-					"This project uses Lidar technology like those found in self driving cars to measure distances between itself and its surroundings. The data is sent to a Java program I developed and gets converted from spherical to cartesian points. The points get rendered together to make a 3D model of the environment.", 
-					"The initial idea was to create some sort of 3D program in Java but I also wanted it to involve the real world. The first thing that came to mind were 3D printers. I decided to do the opposite by turning reality into a computer model."
-				],
-				"tags": ["Arduino","Java"],				
-				"thumbnail": "/assets/media/LidarMapping/3.png",
-				"youtube_ids": ["6YTCKRSWroE"],
-				"images": [
-					{"src": "/assets/media/LidarMapping/1.png", "text": "Lidar Sensor, Servos, Triopod, and Arduino"}, 
-					{"src": "/assets/media/LidarMapping/2.png", "text": "Selecting Serial Port In Java Program"}, 
-					{"src": "/assets/media/LidarMapping/3.png", "text": "Scanning Room"}, 
-					{"src": "/assets/media/LidarMapping/4.png", "text": "Finished Mapping"}
-				],
-				"links": [
-					{"name": "Github", "url": "https://github.com/TravisLedo/LidarScanRender"},
-					{"name": "Hackster", "url": "https://www.hackster.io/TravisLedo/arduino-lidar-scanning-java-rendering-6b2124"},
-					{"name": "Youtube", "url": "https://youtu.be/6YTCKRSWroE"}
-				]
-			},
-			{
-				"id": 3,
-				"name": "Unity Adventure Game",
-				"description": [
-					"With a few years of experience in the Unity game engine, I wanted to challenge myself to develope a functional game. I was able to spend my summer break working on it. The goal was to create a first person game with magic spells. There should be at least one fully developed town where the player can roam around and talk to NPCs to accept quests such as dungeons.", 
-					"Although there are lots of room for improvements, unfortunately the files were lost with my old laptop. Luckily though, I was able to finish the demo video."
-				],				
-				"tags": ["Unity","C#"],				
-				"thumbnail": "/assets/media/UnityGame/3.png",
-				"youtube_ids": ["kNrGQQwmmX4"],
-				"images": [
-					{"src": "/assets/media/UnityGame/1.png", "text": "Cinematic Camera View"}, 
-					{"src": "/assets/media/UnityGame/2.png", "text": "Dungeon Traps"}, 
-					{"src": "/assets/media/UnityGame/3.png", "text": "Using Skills on Enemies"}, 
-					{"src": "/assets/media/UnityGame/4.png", "text": "Boss Fights"}
-				],
-				"links": [
-					{"name": "Youtube", "url": "https://youtu.be/kNrGQQwmmX4"}
-				]
-			},
-			{
-				"id": 4,
-				"name": "Sprite Split & Glue Tool",
-				"description": [
-					"Sprite Tool is an application designed with artists in mind. Game developers, animators, and etc. need a quick way to create sprite sheets or cut existing sheets into individual sprites. This is a free, intuitive, offline solution to assist them with these tasks. Users have the ability to preview the animations before finalizing their images. It is developed in C++ using QT Creator and works for both MacOS and Windows."
-				],
-				"tags": ["C++","Qt"],				
-				"thumbnail": "/assets/media/SpriteTool/1.png",
-				"youtube_ids": [],
-				"images": [
-					{"src": "/assets/media/SpriteTool/1.png", "text": "Glue Sprites Screen"}, 
-					{"src": "/assets/media/SpriteTool/2.png", "text": "Split Sprites Screen"}, 
-					{"src": "/assets/media/SpriteTool/3.gif", "text": "Glue Demo"}, 
-					{"src": "/assets/media/SpriteTool/4.gif", "text": "Split Demo"}
-				],
-				"links": [
-					{"name": "Github", "url": "https://github.com/TravisLedo/SpriteTool"}
-				]
-			}
-			,{
-				"id": 5,
-				"name": "Media Player",
-				"description": [
-					"This is desktop application that plays audio and video files inside a playlist. Inspired by my favorite media player growing up called Winamp, I decided to make something similar but with a more modern design than what I remembered Winamp used to look like.", 
-					"After taking my first Java class at a community college, I decided to build my first Java application. I did put it on hold though due to my lack of knowledge at the time. Eventually I came back to finish it during my Junior year when I had free time. This was my first experience with the JavaFX library. I did learn something similar in class called Swing but I heard it was outdated and wanted to learn the modern version of it."				],
-				"tags": ["Java"],				
-				"thumbnail": "/assets/media/MediaPlayer/3.png",
-				"youtube_ids": [],
-				"images": [
-					{"src": "/assets/media/MediaPlayer/1.png", "text": "Empty Playlist"}, 
-					{"src": "/assets/media/MediaPlayer/2.png", "text": "Adding media files"}, 
-					{"src": "/assets/media/MediaPlayer/3.png", "text": "Playing a Video"}
-				],
-				"links": [
-					{"name": "Github", "url": "https://github.com/TravisLedo/ImageSearchAndFilter"}
-				]
-			}
-			
+  {
+    "id": 1,
+    "name": "Media Player",
+    "description": [
+      "This is desktop application that plays audio and video files inside a playlist. Inspired by my favorite media player growing up called Winamp, I decided to make something similar but with a more modern design than what I remembered Winamp used to look like.",
+      "After taking my first Java class at a community college, I decided to build my first Java application. I did put it on hold though due to my lack of knowledge at the time. Eventually I came back to finish it during my Junior year when I had free time. This was my first experience with the JavaFX library. I did learn something similar in class called Swing but I heard it was outdated and wanted to learn the modern version of it."
+    ],
+    "tags": ["Java"],
+    "thumbnail": "/assets/media/MediaPlayer/3.png",
+    "youtube_ids": [],
+    "images": [
+      { "src": "/assets/media/MediaPlayer/1.png", "text": "Empty Playlist" },
+      {
+        "src": "/assets/media/MediaPlayer/2.png",
+        "text": "Adding media files"
+      },
+      { "src": "/assets/media/MediaPlayer/3.png", "text": "Playing a Video" }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/TravisLedo/ImageSearchAndFilter"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sprite Split & Glue Tool",
+    "description": [
+      "Sprite Tool is an application designed with artists in mind. Game developers, animators, and etc. need a quick way to create sprite sheets or cut existing sheets into individual sprites. This is a free, intuitive, offline solution to assist them with these tasks. Users have the ability to preview the animations before finalizing their images. It is developed in C++ using QT Creator and works for both MacOS and Windows."
+    ],
+    "tags": ["C++", "Qt"],
+    "thumbnail": "/assets/media/SpriteTool/1.png",
+    "youtube_ids": [],
+    "images": [
+      {
+        "src": "/assets/media/SpriteTool/1.png",
+        "text": "Glue Sprites Screen"
+      },
+      {
+        "src": "/assets/media/SpriteTool/2.png",
+        "text": "Split Sprites Screen"
+      },
+      { "src": "/assets/media/SpriteTool/3.gif", "text": "Glue Demo" },
+      { "src": "/assets/media/SpriteTool/4.gif", "text": "Split Demo" }
+    ],
+    "links": [
+      { "name": "Github", "url": "https://github.com/TravisLedo/SpriteTool" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Unity Adventure Game",
+    "description": [
+      "With a few years of experience in the Unity game engine, I wanted to challenge myself to develope a functional game. I was able to spend my summer break working on it. The goal was to create a first person game with magic spells. There should be at least one fully developed town where the player can roam around and talk to NPCs to accept quests such as dungeons.",
+      "Although there are lots of room for improvements, unfortunately the files were lost with my old laptop. Luckily though, I was able to finish the demo video."
+    ],
+    "tags": ["Unity", "C#"],
+    "thumbnail": "/assets/media/UnityGame/3.png",
+    "youtube_ids": ["kNrGQQwmmX4"],
+    "images": [
+      {
+        "src": "/assets/media/UnityGame/1.png",
+        "text": "Cinematic Camera View"
+      },
+      { "src": "/assets/media/UnityGame/2.png", "text": "Dungeon Traps" },
+      {
+        "src": "/assets/media/UnityGame/3.png",
+        "text": "Using Skills on Enemies"
+      },
+      { "src": "/assets/media/UnityGame/4.png", "text": "Boss Fights" }
+    ],
+    "links": [{ "name": "Youtube", "url": "https://youtu.be/kNrGQQwmmX4" }]
+  },
+  {
+    "id": 4,
+    "name": "Lidar Scanning & Rendering",
+    "description": [
+      "This project uses Lidar technology like those found in self driving cars to measure distances between itself and its surroundings. The data is sent to a Java program I developed and gets converted from spherical to cartesian points. The points get rendered together to make a 3D model of the environment.",
+      "The initial idea was to create some sort of 3D program in Java but I also wanted it to involve the real world. The first thing that came to mind were 3D printers. I decided to do the opposite by turning reality into a computer model."
+    ],
+    "tags": ["Arduino", "Java"],
+    "thumbnail": "/assets/media/LidarMapping/3.png",
+    "youtube_ids": ["6YTCKRSWroE"],
+    "images": [
+      {
+        "src": "/assets/media/LidarMapping/1.png",
+        "text": "Lidar Sensor, Servos, Triopod, and Arduino"
+      },
+      {
+        "src": "/assets/media/LidarMapping/2.png",
+        "text": "Selecting Serial Port In Java Program"
+      },
+      { "src": "/assets/media/LidarMapping/3.png", "text": "Scanning Room" },
+      { "src": "/assets/media/LidarMapping/4.png", "text": "Finished Mapping" }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/TravisLedo/LidarScanRender"
+      },
+      {
+        "name": "Hackster",
+        "url": "https://www.hackster.io/TravisLedo/arduino-lidar-scanning-java-rendering-6b2124"
+      },
+      { "name": "Youtube", "url": "https://youtu.be/6YTCKRSWroE" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "AR Virtual Home",
+    "description": [
+      "This project was my entry to Augmented Reality. I know that AR will have many important use cases in the future for society. Being able to understand at least how the it works will help keep me up to date with the latest technologies. I developed this app based off of the IKEA Place app that does something similar. I think that it is a good starting point for this type of project.",
+      "The user has the ability to browse items, rotate, scale, and place them on the grid area. The app can run on IOS and Android devices thanks to Unity's AR Foundation assets."
+    ],
+    "tags": ["Unity", "C#"],
+    "thumbnail": "/assets/media/ARHome/3.png",
+    "youtube_ids": ["ne-2WAjQ0tk"],
+    "images": [
+      { "src": "/assets/media/ARHome/1.png", "text": "Before Using AR" },
+      {
+        "src": "/assets/media/ARHome/2.png",
+        "text": "Rotating, Scaling, & Placing Objects"
+      },
+      { "src": "/assets/media/ARHome/3.png", "text": "Added Multiple Objects" },
+      { "src": "/assets/media/ARHome/4.png", "text": "Walking Around" },
+      { "src": "/assets/media/ARHome/5.png", "text": "Finished Room View" }
+    ],
+    "links": [
+      { "name": "Github", "url": "https://github.com/TravisLedo/ARWeHomeYet" },
+      { "name": "Youtube", "url": "https://youtu.be/ne-2WAjQ0tk" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "FirstBank Landing Page",
+    "description": [
+	  "I typically work in a framework but I wanted to go back to the basics and create a simple landing page that resembles a potential real world client's request. It was developed all in HTML and CSS. I completed it in a couple of hours as a coding challenge to myself. This included the time it took to design the page, gather images, and edit them as well."
+    ],
+    "tags": ["HTML", "CSS", "Photoshop"],
+    "thumbnail": "/assets/media/FirstBank/2.png",
+    "youtube_ids": [],
+    "images": [
+      { "src": "/assets/media/FirstBank/1.png", "text": "Landing Page" }
+    ],
+    "links": [
+	  { "name": "Github", "url": "https://github.com/TravisLedo/FirstBank" },
+      { "name": "Website", "url": "https://firstbank-landing.onrender.com/" }
+    ]
+  }
+  ,{
+    "id": 7,
+    "name": "Childrens Audio Books Website",
+    "description": [
+	  "This is a fun website that I am continuing to work on. It is a full stack MERN(MongoDb, Express, React, NodeJs) project that I wanted to build from scratch all the way to deployment. It took many weeks to get it to the current state and is finally at a good place to deploy. Bug fixes and features will still be rolling out.",
+	  "I have always wanted to create a children's style app because they offer the kids a fun way to learn. Both the backend and frontend are live on Render, feel free to mess around with the website. Since I am using free hosting, it may take minute to initally load due to limited bandwidth. Also if the site goes down due to inactivity and you really wish to see it, please email me and I can redeploy it for you."
+    ],
+    "tags": ["MongoDb", "React", "Express", "NodeJs"],
+    "thumbnail": "/assets/media/Teddy-Books/2.png",
+    "youtube_ids": [],
+    "images": [
+		{ "src": "/assets/media/Teddy-Books/profile.gif", "text": "Login & Profile" },
+		{ "src": "/assets/media/Teddy-Books/admin.gif", "text": "Admin Features" },
+		{ "src": "/assets/media/Teddy-Books/read.gif", "text": "Reading" }
+    ],
+    "links": [
+		{ "name": "Github", "url": "https://github.com/TravisLedo/teddy-books" },
+        { "name": "Website", "url": "https://teddy-books.onrender.com/" }
+    ]
+  }
 ]
