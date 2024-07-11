@@ -154,7 +154,7 @@
     "name": "Children's Audio Book Website",
     "description": [
 	  "This is a fun website that I am continuing to work on. It is a full stack MERN(MongoDb, Express, React, NodeJs) project that I wanted to build from scratch all the way to deployment. It took many weeks to get it to the current state and is finally at a good place to deploy. Bug fixes and features will still be rolling out.",
-	  "I have always wanted to create a children's style app because they offer the kids a fun way to learn. Both the backend and frontend are live on Render, feel free to mess around with the website. Since I am using free hosting, it may take minute to initially load due to the host shutting down the backend after 15 minutes of no activity."
+	  "I have always wanted to create a children's style app because they offer the kids a fun way to learn. Both the backend and frontend are live, feel free to mess around with the website."
     ],
     "tags": ["MongoDb", "React", "Express", "NodeJs"],
     "thumbnail": "/assets/media/Teddy-Books/2.png",
